@@ -2,6 +2,12 @@
 
 A modern and interactive dice game built using **HTML, CSS, and JavaScript** featuring animations, score tracking, match history, and a Player vs Computer mode.
 
+## 🌐 Live Demo
+
+Play the game online:
+
+👉 https://riskanahamed.github.io/Dice-Game/
+
 ## 🚀 Features
 
 * 🎮 Player vs Computer gameplay
