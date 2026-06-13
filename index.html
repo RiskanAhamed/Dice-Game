@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Dice Battle Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<div class="container">
+  <h1>🎲 ULTIMATE DICE BATTLE 🎲</h1>
+
+  <div class="scoreboard">
+    <div class="card">Player 1<br><span id="score1">0</span></div>
+    <div class="card">Player 2<br><span id="score2">0</span></div>
+  </div>
+
+  <div class="dice-container">
+    <div class="player-box">
+      <h2>Player 1</h2>
+      <div id="dice1" class="dice">⚀</div>
+    </div>
+
+    <div class="vs">VS</div>
+
+    <div class="player-box">
+      <h2>Player 2</h2>
+      <div id="dice2" class="dice">⚀</div>
+    </div>
+  </div>
+
+  <button onclick="rollDice()">🎲 Roll Dice</button>
+  <button onclick="resetGame()">🔄 Reset</button>
+
+  <h2 id="result">Press Roll Dice</h2>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
